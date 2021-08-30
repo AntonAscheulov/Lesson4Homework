@@ -1,0 +1,40 @@
+.container{
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    margin: 0 auto;
+    position: relative;
+}
+
+.object{
+    width: 20%;
+    height: 20%;
+    background-color: crimson;
+    position: absolute;
+    animation-name: moving_1, moving_2;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: 3;
+}
+
+@keyframes moving_1{
+  0%, 100%  {background-color:crimson; left:0; top:0;}
+  25%  {background-color:khaki; left:80%; top:0;}
+  50%  {background-color:chartreuse; left:80%; top:80%;}
+  75%  {background-color:grey; left:0; top:80%;}
+}
+
+ @keyframes moving_2{
+    0%, 100% {
+      border-radius: 50%;
+    }
+    25% {
+      border-radius: 0%;
+    }
+    50% {
+      border-radius: 50%; 
+    }
+    75% {
+      border-radius: 0%;
+    }
+  }

@@ -1,0 +1,178 @@
+@font-face {
+    font-family: Raleway;
+    src: url(./fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(./fonts/OpenSans-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+}
+
+.awesome{
+    margin: 100px 0 36px;
+}
+
+.awesome-header{
+    text-transform: uppercase;
+    font-family: Raleway, Verdana, sans-serif;
+    color: #212121;
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.underline{
+    width: 64px;
+    background-color: #E72424;  
+    border: 1px solid #E72424;
+    margin: 0 auto 30px;
+    }
+
+.awesome-text{
+    font-family: 'Open Sans', Tahoma, sans-serif;
+    color: #86878B;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.why-awesome{
+    font-size: 0px;
+    margin-bottom: 108px;
+}
+
+.why-awesome-block{
+    width: 350px;
+    display: inline-block;
+    font-family: 'Open Sans';
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.why-awesome-block:nth-child(2){
+    margin: 0 32px;
+}
+
+
+.why-awesome-block h2{
+    font-family: 'Open Sans', Tahoma, sans-serif;
+    color: #333333;
+    font-size: 20px;
+    margin-bottom: 16px;
+    font-weight: 700;
+}
+.why-awesome-block-cirleimg{
+    border-radius: 50%;
+    border: 1px solid #E72424; 
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.lamp{
+    background-image: url(./assets/icons/lamp.svg);
+}
+
+.keyboard{
+    background-image: url(./assets/icons/keyboard.svg);
+}
+
+.light{
+    background-image: url(./assets/icons/light.svg);  
+}
+
+.stylish{
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(./assets/img/backgroundStylish.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1400px;
+    height: 326px;
+    margin: 0 auto;
+}
+
+.stylish-header{
+    text-transform: uppercase;
+    font-family: Raleway, Verdana, sans-serif;
+    color:#FFFFFF;
+    font-size: 36px;
+    font-weight: 400;
+    padding-top: 76px;
+    margin-bottom: 46px;
+}
+
+.stylish-underline{
+    width: 64px;
+    background-color: #FFFFFF;  
+    border: 1px solid #FFFFFF;
+    margin: 0 auto 30px;
+}
+
+.stylish-text{
+    font-family: Raleway, Verdana, sans-serif;
+    color: #FFFFFFCC;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.button-download button{
+    width: 135px;
+    height: 42px;
+    font-family: 'Open Sans', Tahoma, sans-serif;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: 1px solid #FFFFFF;
+    cursor:pointer;
+    overflow: hidden; 
+}
+
+.button-download button:hover{
+    background-color: rgba(192, 190, 190, 0.486);
+} 
+
+
+footer{
+    width: 1400px;
+    height: 101px;
+    background: #000000;
+    margin: 0 auto;
+}
+
+.icons-footer{
+    width: 317px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.icons-footer a{
+    font-size: 24px;
+    letter-spacing: 20px;
+    color: #FFFFFFCC;
+    text-decoration: none;
+}
+
+.icons-footer a :hover{
+    color: rgba(192, 190, 190, 0.486);
+}
+
+footer p{
+    font-family: 'Open Sans', Tahoma, sans-serif;
+    color: #FFFFFF80;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 18px;
+}
